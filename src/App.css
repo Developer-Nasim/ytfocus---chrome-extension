@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    background: #0f101b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activateNow {
+    padding: 30px;
+    text-align: center;
+}
+
+.activateNow h5 {
+    font-size: 30px;
+}
+
+.activateNow > div {
+    display: block;
+    margin: 20px 0;
+}
+
+.activateNow > div button {
+    display: block;
+    width: 300px;
+    text-align: left;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #817f7f44;
+    border-radius: 10px;
+    padding-left: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.activateNow > div button > span {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+    transition: .3s;
+}
+
+.activateNow > div button > span:after {
+    content: "";
+    width: 10px;
+    height: 5px;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -66%) rotate(129deg);
+    transition: .2s;
+    opacity: 0;
+}
+.activateNow > div button.active > span:after{
+    opacity: 1;
+}
+.activateNow > div button.active > span{
+    background: #fff;
+}
+a {
+    color: #f53c48;
+}
