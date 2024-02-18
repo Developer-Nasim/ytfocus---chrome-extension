@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "YtFocus",
-    "description": "Just Focuse into what you are watching in youtube, never be destructed.",
+    "description": "Just Focuse into what you are watching or learning on YouTube.",
     "version": "1.0",
     "permissions": [
       "activeTab",
