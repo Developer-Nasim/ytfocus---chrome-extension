@@ -8,7 +8,7 @@ So how you will use it:
 - Clone this repo
 - Go to your exntesion managment dashboard
 - Turn on the dev mode option
-- Then you will get an option called "upload pack"
+- Then you will get an option called "Load Unpacked"
 - Now just select the "Dist" folder and you are done
 - Finished
 
